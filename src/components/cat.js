@@ -7,7 +7,7 @@ const Cat = ({
 }) => (
   <div className='cat-details'>
     <img className='cat-img' src={ picture } />
-    { name }
+    <div className='cat-name'>{ name }</div>
   </div>
 )
 
