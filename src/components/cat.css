@@ -1,0 +1,10 @@
+.cat-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 1rem;
+}
+
+.cat-img {
+  width: 100px;
+  border-radius: 100px;
+}
