@@ -3,11 +3,13 @@ import './cat.css'
 
 const Cat = ({
   name,
-  picture
+  picture,
+  age = null,
 }) => (
   <div className='cat-details'>
     <img className='cat-img' src={ picture } />
     <div className='cat-name'>{ name }</div>
+    <div className='cat-age'>{ age }</div>
   </div>
 )
 
